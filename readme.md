@@ -37,7 +37,7 @@ Follow these steps to get a local copy of the project up and running.
 - Node.js
 - npm or yarn
 
-### Backend Setup
+# Backend Setup
 
 1. **Clone the repository**:
    ```bash
@@ -65,43 +65,57 @@ Follow these steps to get a local copy of the project up and running.
     python manage.py migrate
     ```
 
-Start the Django server:
+5. Start the Django server:
 
-bash
-python manage.py runserver
-Frontend Setup
-Navigate to the frontend directory:
+    ```bash
+    python manage.py runserver
+    ```
 
-bash
-cd frontend
-Install frontend dependencies:
+# Frontend Setup
 
-bash
-npm install  # or yarn install
-Start the React development server:
+1. Navigate to the frontend directory:
 
-bash
-npm start  # or yarn start
-Usage
-Open your browser and go to http://localhost:3000 to access the frontend.
-Register a new user or log in with your credentials.
-Use the interface to ask questions and manage your daily tasks.
-Contributing
-Contributions are welcome! To contribute to Saathi, please follow these steps:
+    ```bash
+    cd frontend
+    ```
+    
+2. Install frontend dependencies:
 
+    ```bash
+    npm install  # or yarn install
+    ```
+    
+3. Start the React development server:
+
+    ```bash
+    npm start # or yarn start
+    ``` 
+    
+# Usage
+
+- Open your browser and go to http://localhost:3000 to access the frontend.
+- Register a new user or log in with your credentials.
+- Use the interface to ask questions and manage your daily tasks.
+    
+## Contributing
+    Contributions are welcome! To contribute to Saathi, please follow these steps:
+
+    
 ## Fork the repository.
-Create a new branch (git checkout -b feature/your-feature-name).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/your-feature-name).
-Open a pull request.
-Please make sure your code follows the project's coding standards and include relevant tests.
+1.  Create a new branch (git checkout -b feature/your-feature-name).
+2.  Commit your changes (git commit -m 'Add some feature').
+3.  Push to the branch (git push origin feature/your-feature-name).
+4.  Open a pull request.
+5.  Please make sure your code follows the project's coding standards and include relevant tests.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## License
+    This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Contact
-If you have any questions, feel free to reach out:
+## Contact
+-   If you have any questions, feel free to reach out:
 
-Email: yourname@example.com
-GitHub: yourusername
-Thank you for using Saathi! We hope it makes your daily tasks and queries easier to manage.
+    Email: - [jainprashuk5012258@gmail.com](mailto:jainprashuk5012258@gmail.com)
+
+    GitHub: [Prashuk-222]("https://github.com/Prashuk-222")
+    
+#### Thank you for using Saathi! We hope it makes your daily tasks and queries easier to manage.
