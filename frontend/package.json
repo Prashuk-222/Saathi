@@ -1,0 +1,30 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "web interface for saathi app",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel ./public/index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/saathi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/saathi/issues"
+  },
+  "homepage": "https://github.com/yourusername/saathi#readme",
+  "dependencies": {
+    "parcel": "^2.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "react-select": "^5.8.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
